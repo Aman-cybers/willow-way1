@@ -1,0 +1,33 @@
+#jumbotron{
+	padding-bottom: 200px;
+	padding-top: 5px;
+	margin-top: 2px;
+	
+	background-image: url(https://www.cdc.gov/wcms/4.0/cdc-wp/images-all-purpose/red-sky.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;	
+}
+#dropdown-menu{
+	position: fixed;
+top: 1.4%;
+right: 0.5%;
+}
+.vl{
+	border-left:1px solid grey;
+	height: 300px;
+  position: absolute;
+  left: 40%;
+  margin-left: -3px;
+  top: 30%;
+}
+#btn-emp1{
+	margin-top: 10px;
+}
+#btn-emp{
+	margin-top: 1%;
+	margin-bottom: 10px;
+}
+#btn-select{
+	margin-bottom: 10px;
+}

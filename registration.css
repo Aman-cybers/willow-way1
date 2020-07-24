@@ -1,0 +1,18 @@
+.jumbotron{
+	padding-top:100px;
+	margin-top: 30px;
+	margin-bottom:10px;
+	background-image: url(https://cutewallpaper.org/21/cartoon-grass-background/Cartoon-Grass-Background-Best-Background-Images-HD-Wallpaper.png);
+	background-position:center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+}
+form{
+	margin-top:20px;
+
+}
+input{
+	width:10px;
+}
