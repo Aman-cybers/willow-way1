@@ -9,6 +9,10 @@
 </head>
 <body>
 <div class="container">
+	<div class="card text-white bg-success mb-3" style="max-width: 48rem;" id="card">
+  <div class="card-header">User Registration Detail's</div>
+  <div class="card-body">
+    <h5 class="card-title"><div class="container">
 	<form>
   <div class="form-group">
     <label for="exampleInputEmail1"><i class="fas fa-hand-point-right"></i><b> First Name</b></label>
@@ -31,15 +35,55 @@
     <label for="exampleInputEmail1"><i class="fas fa-hand-point-right"></i><b> Phone Number</b></label>
     <input type="number" class="form-control" id="number" placeholder="Phone number">
   </div>
+   <div class="form-group">
+    <label for="exampleInputEmail1"><i class="fas fa-hand-point-right"></i><b> Select Gender</b></label>
+     <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Male
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+Female  </label>
+</div>
+  </div>
+   <div class="form-group">
+<label for="exampleInputEmail1"><i class="fas fa-hand-point-right"></i><b> Region</b></label>    <select class="form-control" id="transporation">
+      <option>Lohegoan</option>
+      <option>beawar</option>
+      <option>Pune Airport</option>
+      <option>Nikol</option>
+      <option>Viman Nagar</option>
+      <option>yerwada</option>
+
+     
+    </select>
+  <div class="form-group">
+    <label for="exampleInputEmail1"><i class="fas fa-hand-point-right"></i><b> Address</b></label>
+    <input type="text" class="form-control" id="address" placeholder="address">
+  </div>
   
-  <button type="submit" class="btn btn-outline-success">Submit</button>
+
+
+
+
+          
+  <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+    <button type="reset" class="btn btn-primary" id="reset">Reset</button>
+
 </form>
+
 </div>
-<div class="jumbotron">
-	<div class="container">
-		
-	</div>
+</h5>
+  </div>
 </div>
+</div>
+	
+
+
+<script type="text/javascript" src="registration.js"></script>
 </body>
 </html>
 
