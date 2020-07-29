@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>farmerpage</title>
+	<title>profile</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-	<link rel="stylesheet" type="text/css" href="farmerpage.css">
+	<link rel="stylesheet" type="text/css" href="profile.css">
 </head>
 <body>
-
-
-
 <nav class="navbar navbar-expand-lg navbar-light bg-success" id="main-navbar">
   <a class="navbar-brand" href="#" id="willow"><i class="fas fa-tractor"></i><b> Willow-Way</b></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,9 +17,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active" id="profile">
-        <a class="nav-link" href="#"><i class="fas fa-user-circle"></i> Profile</a>
-      </li>
+     
       <li class="nav-item" id="contact">
         <a class="nav-link" href="#"><i class="fas fa-address-book"></i> Contact</a>
       </li>
@@ -35,40 +30,34 @@
   </div>
 </nav>
 
-<div class="card border-success mb-3" style="max-width: 48rem;" id="card">
-  <div class="card-header">Farmer Information</div>
+	<div class="row">
+		<div class="col-2">
+			<button type="button" class="btn btn-primary btn-lg btn-block">Account Setting</button>
+			<button type="button" class="btn btn-primary btn-lg btn-block">Profile Setting</button>
+			<button type="button" class="btn btn-primary btn-lg btn-block">Change Address</button>
+			<button type="button" class="btn btn-primary btn-lg btn-block">Rate us</button>
+
+		</div>
+		<div class="col">
+			<div class="card border-success mb-3" style="max-width: 65rem;" id="card">
+  <div class="card-header"><h3> Profile</h3></div>
   <div class="card-body text-success">
-    <h5 class="card-title"><form>
-  <div class="form-group">
-    <label for="cropname">Crop Name</label>
-    <input type="text" class="form-control" id="cropname" aria-describedby="emailHelp">
+  	 <h5 class="card-title">Email : </h5>
+        <input type="username" class="form-control" id="lastname" value="Email"><br>
+    <h5 class="card-title">Name : </h5>
+        <input type="username" class="form-control" id="lastname" value="Name"><br>
+         <h5 class="card-title">Username : </h5>
+        <input type="username" class="form-control" id="lastname" value="Username"><br>
+      <h5 class="card-title">Number : </h5>
+        <input type="number" class="form-control" id="lastname" value="8765432109"><br>
+         <h5 class="card-title">Address : </h5>
+        <input type="username" class="form-control" id="lastname" value="Pune Dy patil college">   
+
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Current Price</label>
-    <input type="number" class="form-control" id="price">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">My available Stock</label>
-    <input type="number" class="form-control" id="price">
-  </div>
-  
-  <div class="form-group">
-    <label for="exampleInputPassword1">Max amount Eligible for</label>
-    <input type="number" class="form-control" id="price">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Transportation</label>
-    <select class="form-control" id="transporation">
-      <option>yes</option>
-      <option>no</option>
-     
-    </select>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-  <button type="submit" class="btn btn-primary">Clear</button>
-</form></h5>
-  </div>
-</div>
+		</div>	
+	</div>
+	
+
 
 
 
